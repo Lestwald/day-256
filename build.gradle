@@ -24,3 +24,8 @@ compileKotlin {
 compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
+
+task startService(type: JavaExec) {
+    main ='Main'
+    classpath = sourceSets.main.runtimeClasspath
+}
