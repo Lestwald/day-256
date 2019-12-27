@@ -1,5 +1,9 @@
 # day-256
 
+## Run
+```
+  gradle startService
+```
 ## Examples:
 ```
   request: http://localhost?year=1997
